@@ -11,15 +11,21 @@ int main(void)
 	for (i = 1; i < 100; i++)
 	{
 		if ((1 / 10) == (i % 10) || (i % 10) || (i % 10) == 0 || (i / 10) > (i % 10))
-		{continue;}
+		{
+			continue;
+		}
 
 		putchar((i / 10) + '0');
 		putchar((i % 10) + '0');
 		if ((i / 10) == 8)
-		{break;}
+		{
+			break;
+		}
 		putchar(',');
 		putchar(' ');
 	}
 	putchar('\n');
-	{return 0;}
+	{
+		return (0);
+	}
 }
