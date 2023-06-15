@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * printis_dlistint - prints all the elements in a dlistint_t list
+ * print_dlistint - prints all the elements in a dlistint_t list
  * @h: pointer to list
  * Return: number of nodes
  **/
-size_t printis_dlistint(const dlistint_t *h)
+size_t print_dlistint(const dlistint_t *h)
 {
 	const dlistint_t *node = h;
 	size_t cont = 0;
